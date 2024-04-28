@@ -1,0 +1,32 @@
+..........................Challenges Questions..........................
+
+{unit-2}
+ c1. create a class to output “good morning”.
+ c2. Create a new Project and output “subscribe”.
+ c3. Show the following patterns:
+     
+     a. *               b. *****           c.     *        
+        **                 ****                  **
+        ***                ***                  ***
+        ****               **                  ****    
+        *****              *                  *****
+
+{unit-3}       
+ c4. Show the following patterns using single print statement:
+     
+        *                  *****                  *        
+        **                 ****                  **
+        ***                ***                  ***
+        ****               **                  ****    
+        *****              *                  *****
+
+ c5. Create a program to input name of the person and
+     respond with ”Welcome NAME to KG Coding”     
+ c6. Create a program to add two numbers.    
+
+{unit-4}  
+ c7. Create a program to swap two numbers.
+ c8. Create a program that takes two numbers and shows result of all
+     arithmetic operators (+,-,*,/,%).
+ c9. Create a program to calculate product of two floating points 
+     numbers.

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SESA store</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #000000;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #ffffff;
+    }
+    .btn {
+        background-color: #9b2020;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .btn:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+<h1>SESA Products</h1>
+<table id="productTable">
+    <tr>
+        <th>ID</th>
+        <th>Items</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Action</th>
+    </tr>
+</table>
+<h2>Add Product</h2>
+<form id="addProductForm">
+    <label for="productName">Product Name:</label>
+    <input type="text" id="productName" name="productName" required><br>
+    <label for="productPrice">Price:</label>
+    <input type="number" id="productPrice" name="productPrice" min="0" step="0.01" required><br>
+    <label for="productQuantity">Quantity:</label>
+    <input type="number" id="productQuantity" name="productQuantity" min="0" required><br>
+    <button type="submit" class="btn">Add Product</button>
+</form>
+<script>
+    // Sample product data
+    var products = [
+        { id: 1, Item: "Flower pot", price: 250, quantity: 5089 },
+        { id: 2, Item: "Plants", price: 90, quantity: 4770 },
+        { id: 3, Item: "Machine", price: 5000, quantity: 3780 },
+        { id: 4, Item: "Decorative Items", price: 400, quantity: 3990 }
+    ];
+
+    // Function to display products in the table
+    function displayProducts() {
+        var table = document.getElementById("productTable");
+        table.innerHTML = `
+            <tr>
+                <th>ID</th>
+                <th>Items</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Action</th>
+            </tr>
+        `;
+        for (var i = 0; i < products.length; i++) {
+            var product = products[i];
+            var row = table.insertRow();
+            row.innerHTML = `
+                <td>${product.id}</td>
+                <td>${product.Item}</td>
+                <td>₹${product.price}</td>
+                <td>${product.quantity}</td>
+                <td><button class="btn" onclick="buyProduct(${product.id})">Buy</button></td>
+            `;
+        }
+    }
+
+    // Function to handle adding a new product
+    function addProduct(event) {
+        event.preventDefault();
+        var productName = document.getElementById("productName").value;
+        var productPrice = parseFloat(document.getElementById("productPrice").value);
+        var productQuantity = parseInt(document.getElementById("productQuantity").value);
+        if (!productName || isNaN(productPrice) || isNaN(productQuantity) || productPrice <= 0 || productQuantity <= 0) {
+            alert("Please enter valid product information.");
+            return;
+        }
+        var newProductId = products.length + 1;
+        var newProduct = { id: newProductId, Item: productName, price: productPrice, quantity: productQuantity };
+        products.push(newProduct);
+        displayProducts();
+        document.getElementById("addProductForm").reset();
+    }
+
+    // Function to handle buying process
+    function buyProduct(productId) {
+        var quantity = prompt("Enter the quantity you want to buy:");
+        quantity = parseInt(quantity);
+        if (!quantity || quantity <= 0) {
+            alert("Invalid quantity. Please enter a positive number.");
+            return;
+        }
+        var product = products.find(p => p.id === productId);
+        if (!product) {
+            alert("Product not found.");
+            return;
+        }
+        if (product.quantity < quantity) {
+            alert("Not enough quantity available.");
+            return;
+        }
+        product.quantity -= quantity;
+        alert(quantity + " " + product.name + "(s) purchased successfully.");
+        displayProducts();
+    }
+
+    // Display initial products
+    displayProducts();
+
+    // Add event listener for form submission
+    document.getElementById("addProductForm").addEventListener("submit", addProduct);
+</script>
+</body>
+</html>

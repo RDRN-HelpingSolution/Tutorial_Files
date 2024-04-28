@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "type_conversion",
+            "request": "launch",
+            "mainClass": "Units.Lecture_3.type_conversion",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c6",
+            "request": "launch",
+            "mainClass": "Challenge.c6",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c5",
+            "request": "launch",
+            "mainClass": "Challenge.c5",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "user_input",
+            "request": "launch",
+            "mainClass": "Units.Lecture_3.user_input",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c3a",
+            "request": "launch",
+            "mainClass": "Challenge.c3a",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "escape_sequences",
+            "request": "launch",
+            "mainClass": "Units.Lecture_3.escape_sequences",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "data_type",
+            "request": "launch",
+            "mainClass": "Units.Lecture_3.data_type",
+            "projectName": "CODES_57494267"
+        }
+    ]
+}

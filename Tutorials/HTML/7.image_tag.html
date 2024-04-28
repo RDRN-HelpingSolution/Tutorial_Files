@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Tag</title>
+    </head>
+    <body>
+
+        <!-- using image tag -->
+        <h1>IMG tag</h1>
+           <img src="7.image.png" alt="profile">
+           <hr>
+
+        <!--Attributes of img tag  -->
+
+<!-- 1. Height & Width Attribute -->
+        <h1>height & width attribute</h1>
+           <img src="7.image.png" 
+           alt="profile" width="100%" height="auto">
+           <hr>
+
+<!-- 2. Title Attribute-->
+        <h1>Title attribute</h1>
+           <img src="7.image.png" alt="profile" 
+                title="profile photo">
+           <hr>
+
+<!-- 3. Link Attribute -->
+
+        <!-- whole image link method -->
+        <h1>whole image link</h1>
+           <a href="https://www.google.co.in/" target="_blank">
+           <img src="7.image.png" alt="profile"></a>
+           <br>
+        
+        <!-- Specific area -->
+           <h1>specific area link</h1>
+
+           <map name="area">
+            <!-- Define clickable areas using <area> tags -->
+            <area shape="rect" coords="100,100,200,200" 
+            href="https://www.google.co.in/">
+           </map>
+           
+           
+           <img src="7.image.png"
+           usemap="#area" 
+           alt="profile" height="400" width="400"
+           >
+           <hr>
+
+<!-- 4. Loading Attribute -->
+          
+           <h1>Loading Attribute</h1>
+            <img src="7.image.png" alt="profile" loading="lazy">
+            <hr>
+
+
+    </body>
+</html>
