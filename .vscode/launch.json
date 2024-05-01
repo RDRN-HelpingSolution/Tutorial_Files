@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arithmetic_operator",
+            "request": "launch",
+            "mainClass": "Units.Lecture_4.arithmetic_operator",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c7",
+            "request": "launch",
+            "mainClass": "Challenge.c7",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "assignment_operator",
+            "request": "launch",
+            "mainClass": "Units.Lecture_4.assignment_operator",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
             "name": "type_conversion",
             "request": "launch",
             "mainClass": "Units.Lecture_3.type_conversion",
