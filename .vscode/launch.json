@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hello_RDRN",
+            "request": "launch",
+            "mainClass": "Units.Lecture_2.hello_RDRN",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
             "name": "arithmetic_operator",
             "request": "launch",
             "mainClass": "Units.Lecture_4.arithmetic_operator",
