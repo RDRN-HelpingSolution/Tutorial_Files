@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "order_of_operation",
+            "request": "launch",
+            "mainClass": "Units.Lecture_4.order_of_operation",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
             "name": "hello_RDRN",
             "request": "launch",
             "mainClass": "Units.Lecture_2.hello_RDRN",

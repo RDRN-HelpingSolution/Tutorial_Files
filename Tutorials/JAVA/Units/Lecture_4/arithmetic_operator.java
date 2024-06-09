@@ -7,6 +7,6 @@ public class arithmetic_operator {
         System.out.println("subtraction  " + (a-b));
         System.out.println("multiplication  " + (a*b));
         System.out.println("division  " + (a/b));
-        System.out.println("modulus  " + (a%b));
+        System.out.println("modulus  " + (b%a));
     }
 }
