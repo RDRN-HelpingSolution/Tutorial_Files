@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "c14",
+            "request": "launch",
+            "mainClass": "Challenge.c14",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c13",
+            "request": "launch",
+            "mainClass": "Challenge.c13",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c12",
+            "request": "launch",
+            "mainClass": "Challenge.c12",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c11",
+            "request": "launch",
+            "mainClass": "Challenge.c11",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c10",
+            "request": "launch",
+            "mainClass": "Challenge.c10",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c9",
+            "request": "launch",
+            "mainClass": "Challenge.c9",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c8",
+            "request": "launch",
+            "mainClass": "Challenge.c8",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "unary_operator",
+            "request": "launch",
+            "mainClass": "Units.Lecture_4.unary_operator",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
             "name": "order_of_operation",
             "request": "launch",
             "mainClass": "Units.Lecture_4.order_of_operation",
