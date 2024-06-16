@@ -11,7 +11,6 @@ public class c14 {
         double c=(f-32)*(0.555);
         System.out.println("Provided Fahrenheit is "+f+" degree");
         System.out.println("In Celsius "+c+" degree");
-
         a.close();
     }
 }

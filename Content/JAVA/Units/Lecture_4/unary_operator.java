@@ -62,9 +62,8 @@ System.out.println("5.Bitwise Complement (~)........................");
         int n = ~m;
         System.out.println("Value of n is "+n);     
 
-
 System.out.println("________________________________________________");
 
-
+        
     }
 }
