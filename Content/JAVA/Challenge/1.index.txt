@@ -92,3 +92,80 @@
 {unit-5}.............................................................
 
 
+ c28. Develop a program that prints the multiplication table for a given 
+      number.
+ c29. Create a program to sum all odd numbers from 1 to a specified 
+      number N.
+ c30. Write a function that calculates the factorial of a given number.
+ c31. Create a program that computes the sum of the digits of an integer.
+ c32. Create a program to find the Least Common Multiple (LCM) of two
+      numbers.
+ c33. Create a program to find the Greatest Common Divisor (GCD) of two
+      integers.
+ c34. Create a program to check whether a given number is prime.
+ c35. Create a program to reverse the digits of a number.
+ c36. Create a program to print the Fibonacci series up to a certain 
+      number.
+ c37. Create a program to check if a number is an Armstrong number.
+ c38. Create a program to verify if a number is a palindrome.
+ c39. Create a program that print patterns:  
+            
+        *                  *****                  *        
+        **                 ****                  **
+        ***                ***                  ***
+        ****               **                  ****    
+        *****              *                  *****
+ c40. Create a program to find the sum and average of all elements in an
+      array.
+ c41. Create a program to find number of occurrences of an element in an
+      array.
+ c42. Create a program to find the maximum and minimum element in an
+      array.
+ c43. Create a program to check if the given array is sorted.
+ c44. Create a program to return a new array deleting a specific element.
+ c45. Create a program to reverse an array.
+ c46. Create a program to check is the array is palindrome or not.
+ c47. Create a program to merge two sorted arrays.
+ c48. Create a program to search an element in a 2-D array.
+ c49. Create a program to do sum and average of all elements in a 2-D 
+      array.
+ c50. Create a program to find the sum of two diagonal elements.
+
+{unit-6}.............................................................
+
+
+ c51. Create a Book class for a library system.
+         • Instance variables: title, author, isbn.
+         • Static variable: totalBooks, a counter for the total number of 
+           book instances.
+         • Instance methods: borrowBook(), returnBook().
+         • Static method: getTotalBooks(), to get the total number of
+           books in the library.
+ c52. Design a Course class.
+         • Instance variables: courseName, enrolledStudents.
+         • Static variable: maxCapacity, the maximum number of 
+           students for any course.
+         • Instance methods: enrollStudent(String studentName),
+           unenrollStudent(String studentName).
+         • Static method: setMaxCapacity(int capacity), to set 
+           the maximum capacity for courses.
+
+{unit-7}.............................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

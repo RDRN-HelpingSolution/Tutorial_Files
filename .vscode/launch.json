@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "relation_operator",
+            "request": "launch",
+            "mainClass": "Units.Lecture_4.relation_operator",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "if_else",
+            "request": "launch",
+            "mainClass": "Units.Lecture_4.if_else",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "roushan",
+            "request": "launch",
+            "mainClass": "Practice.roushan",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "Roushan",
+            "request": "launch",
+            "mainClass": "Practice.Roushan",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
             "name": "c1",
             "request": "launch",
             "mainClass": "Challenge.c1",
