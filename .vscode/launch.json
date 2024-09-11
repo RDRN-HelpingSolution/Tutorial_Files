@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "c20",
+            "request": "launch",
+            "mainClass": "Challenge.c20",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c19",
+            "request": "launch",
+            "mainClass": "Challenge.c19",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c18",
+            "request": "launch",
+            "mainClass": "Challenge.c18",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c17",
+            "request": "launch",
+            "mainClass": "Challenge.c17",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c16",
+            "request": "launch",
+            "mainClass": "Challenge.c16",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "c15",
+            "request": "launch",
+            "mainClass": "Challenge.c15",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "logical_operator",
+            "request": "launch",
+            "mainClass": "Units.Lecture_4.logical_operator",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
             "name": "relation_operator",
             "request": "launch",
             "mainClass": "Units.Lecture_4.relation_operator",
