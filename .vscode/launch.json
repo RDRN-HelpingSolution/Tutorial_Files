@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "r",
+            "request": "launch",
+            "mainClass": "content.r",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "roushan",
+            "request": "launch",
+            "mainClass": "Coverage.java.roushan",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "r",
+            "request": "launch",
+            "mainClass": "Coverage.java.r",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
+            "name": "r",
+            "request": "launch",
+            "mainClass": "Coverage.r",
+            "projectName": "CODES_57494267"
+        },
+        {
+            "type": "java",
             "name": "c20",
             "request": "launch",
             "mainClass": "Challenge.c20",
