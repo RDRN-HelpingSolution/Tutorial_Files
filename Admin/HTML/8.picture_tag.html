@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Picture Tag</title>
-    </head>
-    <body>
-        <picture>
-            <source media="(min-width: 650px)" srcset="8.picture1.jpg">
-            <source media="(min-width: 465px)" srcset="8.picture2.webp">
-            <img src="7.image.png">
-        </picture>
-        
-<!-- for specific browser -->
-        <picture>
-            <source srcset="8.picture2.webp">
-            <source srcset="8.picture1.jpg">
-            <img src="7.image.png" alt="profile">
-          </picture>
-    </body>
+  <head>
+    <title>Picture Tag</title>
+  </head>
+  <body>
+    <picture>
+      <source media="(min-width: 650px)" srcset="8.picture1.jpg" />
+      <source media="(min-width: 465px)" srcset="8.picture2.webp" />
+      <img src="7.image.png" />
+    </picture>
+
+    <!-- for specific browser -->
+    <picture>
+      <source srcset="8.picture2.webp" />
+      <source srcset="8.picture1.jpg" />
+      <img src="7.image.png" alt="profile" />
+    </picture>
+  </body>
 </html>
