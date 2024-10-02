@@ -1,267 +1,288 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "r",
-            "request": "launch",
-            "mainClass": "content.r",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "roushan",
-            "request": "launch",
-            "mainClass": "Coverage.java.roushan",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "r",
-            "request": "launch",
-            "mainClass": "Coverage.java.r",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "r",
-            "request": "launch",
-            "mainClass": "Coverage.r",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c20",
-            "request": "launch",
-            "mainClass": "Challenge.c20",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c19",
-            "request": "launch",
-            "mainClass": "Challenge.c19",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c18",
-            "request": "launch",
-            "mainClass": "Challenge.c18",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c17",
-            "request": "launch",
-            "mainClass": "Challenge.c17",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c16",
-            "request": "launch",
-            "mainClass": "Challenge.c16",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c15",
-            "request": "launch",
-            "mainClass": "Challenge.c15",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "logical_operator",
-            "request": "launch",
-            "mainClass": "Units.Lecture_4.logical_operator",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "relation_operator",
-            "request": "launch",
-            "mainClass": "Units.Lecture_4.relation_operator",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "if_else",
-            "request": "launch",
-            "mainClass": "Units.Lecture_4.if_else",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "roushan",
-            "request": "launch",
-            "mainClass": "Practice.roushan",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "Roushan",
-            "request": "launch",
-            "mainClass": "Practice.Roushan",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c1",
-            "request": "launch",
-            "mainClass": "Challenge.c1",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c2",
-            "request": "launch",
-            "mainClass": "Challenge.c2",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c14",
-            "request": "launch",
-            "mainClass": "Challenge.c14",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c13",
-            "request": "launch",
-            "mainClass": "Challenge.c13",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c12",
-            "request": "launch",
-            "mainClass": "Challenge.c12",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c11",
-            "request": "launch",
-            "mainClass": "Challenge.c11",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c10",
-            "request": "launch",
-            "mainClass": "Challenge.c10",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c9",
-            "request": "launch",
-            "mainClass": "Challenge.c9",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c8",
-            "request": "launch",
-            "mainClass": "Challenge.c8",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "unary_operator",
-            "request": "launch",
-            "mainClass": "Units.Lecture_4.unary_operator",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "order_of_operation",
-            "request": "launch",
-            "mainClass": "Units.Lecture_4.order_of_operation",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "hello_RDRN",
-            "request": "launch",
-            "mainClass": "Units.Lecture_2.hello_RDRN",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "arithmetic_operator",
-            "request": "launch",
-            "mainClass": "Units.Lecture_4.arithmetic_operator",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c7",
-            "request": "launch",
-            "mainClass": "Challenge.c7",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "assignment_operator",
-            "request": "launch",
-            "mainClass": "Units.Lecture_4.assignment_operator",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "type_conversion",
-            "request": "launch",
-            "mainClass": "Units.Lecture_3.type_conversion",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c6",
-            "request": "launch",
-            "mainClass": "Challenge.c6",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c5",
-            "request": "launch",
-            "mainClass": "Challenge.c5",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "user_input",
-            "request": "launch",
-            "mainClass": "Units.Lecture_3.user_input",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "c3a",
-            "request": "launch",
-            "mainClass": "Challenge.c3a",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "escape_sequences",
-            "request": "launch",
-            "mainClass": "Units.Lecture_3.escape_sequences",
-            "projectName": "CODES_57494267"
-        },
-        {
-            "type": "java",
-            "name": "data_type",
-            "request": "launch",
-            "mainClass": "Units.Lecture_3.data_type",
-            "projectName": "CODES_57494267"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "c2_variables",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.c2_variables",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c1_hello",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.c1_hello",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.hello",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "r",
+      "request": "launch",
+      "mainClass": "content.r",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "roushan",
+      "request": "launch",
+      "mainClass": "Coverage.java.roushan",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "r",
+      "request": "launch",
+      "mainClass": "Coverage.java.r",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "r",
+      "request": "launch",
+      "mainClass": "Coverage.r",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c20",
+      "request": "launch",
+      "mainClass": "Challenge.c20",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c19",
+      "request": "launch",
+      "mainClass": "Challenge.c19",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c18",
+      "request": "launch",
+      "mainClass": "Challenge.c18",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c17",
+      "request": "launch",
+      "mainClass": "Challenge.c17",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c16",
+      "request": "launch",
+      "mainClass": "Challenge.c16",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c15",
+      "request": "launch",
+      "mainClass": "Challenge.c15",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "logical_operator",
+      "request": "launch",
+      "mainClass": "Units.Lecture_4.logical_operator",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "relation_operator",
+      "request": "launch",
+      "mainClass": "Units.Lecture_4.relation_operator",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "if_else",
+      "request": "launch",
+      "mainClass": "Units.Lecture_4.if_else",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "roushan",
+      "request": "launch",
+      "mainClass": "Practice.roushan",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Roushan",
+      "request": "launch",
+      "mainClass": "Practice.Roushan",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c1",
+      "request": "launch",
+      "mainClass": "Challenge.c1",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c2",
+      "request": "launch",
+      "mainClass": "Challenge.c2",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c14",
+      "request": "launch",
+      "mainClass": "Challenge.c14",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c13",
+      "request": "launch",
+      "mainClass": "Challenge.c13",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c12",
+      "request": "launch",
+      "mainClass": "Challenge.c12",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c11",
+      "request": "launch",
+      "mainClass": "Challenge.c11",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c10",
+      "request": "launch",
+      "mainClass": "Challenge.c10",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c9",
+      "request": "launch",
+      "mainClass": "Challenge.c9",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c8",
+      "request": "launch",
+      "mainClass": "Challenge.c8",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "unary_operator",
+      "request": "launch",
+      "mainClass": "Units.Lecture_4.unary_operator",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "order_of_operation",
+      "request": "launch",
+      "mainClass": "Units.Lecture_4.order_of_operation",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "hello_RDRN",
+      "request": "launch",
+      "mainClass": "Units.Lecture_2.hello_RDRN",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "arithmetic_operator",
+      "request": "launch",
+      "mainClass": "Units.Lecture_4.arithmetic_operator",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c7",
+      "request": "launch",
+      "mainClass": "Challenge.c7",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "assignment_operator",
+      "request": "launch",
+      "mainClass": "Units.Lecture_4.assignment_operator",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "type_conversion",
+      "request": "launch",
+      "mainClass": "Units.Lecture_3.type_conversion",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c6",
+      "request": "launch",
+      "mainClass": "Challenge.c6",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c5",
+      "request": "launch",
+      "mainClass": "Challenge.c5",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "user_input",
+      "request": "launch",
+      "mainClass": "Units.Lecture_3.user_input",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c3a",
+      "request": "launch",
+      "mainClass": "Challenge.c3a",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "escape_sequences",
+      "request": "launch",
+      "mainClass": "Units.Lecture_3.escape_sequences",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "data_type",
+      "request": "launch",
+      "mainClass": "Units.Lecture_3.data_type",
+      "projectName": "CODES_57494267"
+    }
+  ]
 }
