@@ -37,16 +37,13 @@ public class c20 {
             System.out.println("As your Age is "+ x);
             System.out.println();
             System.out.println("So,you are Under \"Senior\" category.");
-                                     
+                            
         }
         else 
         {
             System.out.println("Please Enter VALID AGE ");
-             
         }
         System.out.println();
-    num.close();
-                                            
-
+        num.close();
 }
                  }

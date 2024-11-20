@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "loops",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.loops",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "c2_variables",
       "request": "launch",
       "mainClass": "Coverage.JAVA.c2_variables",
