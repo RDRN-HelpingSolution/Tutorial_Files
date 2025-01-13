@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "d",
+      "request": "launch",
+      "mainClass": "d",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c1_hello",
+      "request": "launch",
+      "mainClass": "c1_hello",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "loops",
       "request": "launch",
       "mainClass": "Coverage.JAVA.loops",
