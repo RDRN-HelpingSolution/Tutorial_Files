@@ -41,7 +41,7 @@ if (!e) {
 System.out.println();
 System.out.println("4. XOR Operator (^).....................");
 System.out.println(); 
-        boolean f = true;
+        boolean f = false;
         boolean g = true;
 
 if (f ^ g) {

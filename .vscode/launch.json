@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "practice",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.practice",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "showing_output",
+      "request": "launch",
+      "mainClass": "Units.Lecture_2.showing_output",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "intro",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.intro",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "d",
       "request": "launch",
       "mainClass": "d",
