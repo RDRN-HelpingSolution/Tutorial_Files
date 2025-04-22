@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "c26",
+      "request": "launch",
+      "mainClass": "Challenge.c26",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c27",
+      "request": "launch",
+      "mainClass": "Challenge.c27",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c25",
+      "request": "launch",
+      "mainClass": "Challenge.c25",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c24",
+      "request": "launch",
+      "mainClass": "Challenge.c24",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c23",
+      "request": "launch",
+      "mainClass": "Challenge.c23",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c22",
+      "request": "launch",
+      "mainClass": "Challenge.c22",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c21",
+      "request": "launch",
+      "mainClass": "Challenge.c21",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Bitwise_operator",
+      "request": "launch",
+      "mainClass": "Units.Lecture_4.Bitwise_operator",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "practice",
       "request": "launch",
       "mainClass": "Coverage.JAVA.practice",
