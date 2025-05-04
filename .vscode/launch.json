@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "while_loop",
+      "request": "launch",
+      "mainClass": "Units.Lecture_5.while_loop",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "c26",
       "request": "launch",
       "mainClass": "Challenge.c26",

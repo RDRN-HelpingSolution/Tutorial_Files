@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complete Pseudo-Class Demo</title>
+  <style>
+    /* 1. User Action Pseudo-Classes */
+    a:link {
+      color: blue;
+    }
+
+    a:visited {
+      color: rgb(235, 233, 235);
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    a:active {
+      color: orange;
+    }
+
+    input:focus {
+      outline: 2px solid rgb(13, 252, 13);
+    }
+
+    /* 2. Structural Pseudo-Classes */
+    ul.structural li:first-child {
+      color: rgb(225, 175, 99);
+    }
+
+    ul.structural li:last-child {
+      color: rgb(21, 222, 21);
+    }
+
+    ul.structural li:nth-child(2) {
+      font-style: italic;
+    }
+
+    ul.structural li:nth-last-child(2) {
+      text-decoration: underline;
+    }
+
+    ul.only li:only-child {
+      border: 2px dashed red;
+      padding: 5px;
+    }
+
+    /* 3. Form State Pseudo-Classes */
+    input:checked + label {
+      color: green;
+    }
+
+    input:disabled {
+      background-color: #f5f5f5;
+    }
+
+    input:enabled {
+      background-color: #ffffff;
+    }
+
+    input:required {
+      border: 2px solid red;
+    }
+
+    input:optional {
+      border: 2px dashed gray;
+    }
+
+    input:valid {
+      background-color: #d4fcdc;
+    }
+
+    input:invalid {
+      background-color: #ffd6d6;
+    }
+
+    input:in-range {
+      border: 2px solid green;
+    }
+
+    input:out-of-range {
+      border: 2px solid red;
+    }
+
+    /* 4. Negation Pseudo-Class */
+    p:not(.special) {
+      color: gray;
+    }
+
+    /* 5. Target Pseudo-Class */
+    section:target {
+      background-color: #fff9c4;
+      border-left: 5px solid #ffeb3b;
+      padding: 10px;
+    }
+
+    /* 6. UI State Pseudo-Classes */
+    input:read-only {
+      background-color: #e0e0e0;
+    }
+
+    input:read-write {
+      border: 1px dotted #888;
+    }
+
+    input:placeholder-shown {
+      background-color: #e3f2fd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pseudo-Class Demonstration</h1>
+
+  <!-- 1. User Action -->
+  <h2>1. User Action Pseudo-Classes</h2>
+  <p><a href="#targetSection">Click or hover me</a></p>
+  <p><input type="text" placeholder="Click and type here (focus)"></p>
+
+  <!-- 2. Structural -->
+  <h2>2. Structural Pseudo-Classes</h2>
+  <ul class="structural">
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+    <li>Fourth item</li>
+    <li>Fifth item</li>
+  </ul>
+
+  <ul class="only">
+    <li>Only item in this list</li>
+  </ul>
+
+  <!-- 3. Form States -->
+  <h2>3. Form State Pseudo-Classes</h2>
+  <form>
+    <p><input type="checkbox" id="chk" checked><label for="chk">Checked Checkbox</label></p>
+    
+    <p><input type="text" disabled value="Disabled Input"></p>
+    <p><input type="text" value="Enabled Input"></p>
+
+    <p><input type="text" required placeholder="Required field"></p>
+    <p><input type="text" placeholder="Optional field"></p>
+
+    <p><input type="email" value="valid@example.com"></p>
+    <p><input type="email" value="invalid-email"></p>
+
+    <p><input type="number" min="1" max="10" value="5"></p>
+    <p><input type="number" min="1" max="10" value="25"></p>
+  </form>
+
+  <!-- 4. Negation -->
+  <h2>4. Negation Pseudo-Class</h2>
+  <p>This paragraph gets styled (no class).</p>
+  <p class="special">This paragraph does NOT get styled by :not()</p>
+
+  <!-- 5. Target -->
+  <h2>5. Target Pseudo-Class</h2>
+  <p><a href="#targetSection">Jump to Target Section</a></p>
+  <section id="targetSection">
+    <p>This section is targeted via anchor link.</p>
+  </section>
+
+  <!-- 6. UI Pseudo-Classes -->
+  <h2>6. UI Pseudo-Classes</h2>
+  <p><input type="text" value="Can't edit this" readonly></p>
+  <p><input type="text" value="Can edit this"></p>
+  <p><input type="text" placeholder="Placeholder showing"></p>
+
+</body>
+</html>
