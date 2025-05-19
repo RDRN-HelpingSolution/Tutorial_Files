@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MathUtils",
+      "request": "launch",
+      "mainClass": "Units.Lecture_5.MathUtils",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Methods",
+      "request": "launch",
+      "mainClass": "Units.Lecture_5.Methods",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "AddTwoNumbers",
+      "request": "launch",
+      "mainClass": "Units.Lecture_5.AddTwoNumbers",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "while_loop",
       "request": "launch",
       "mainClass": "Units.Lecture_5.while_loop",

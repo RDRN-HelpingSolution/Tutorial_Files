@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <style>
+    /* 1. Define Theme Variables */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1e1e1e;
+  --card-bg: #f4f4f4;
+  --accent-color: #3498db;
+}
+
+/* 2. Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --card-bg: #1e1e1e;
+    --accent-color: #00a8be;
+  }
+}
+
+/* 3. Global Styles */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* 4. Card Styling */
+.card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 300px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: var(--accent-color);
+  margin: 0.5rem 0;
+}
+
+.role {
+  font-weight: bold;
+  margin: 0.25rem 0;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="Avatar" class="avatar">
+    <h2>Roushan Agrawal</h2>
+    <p class="role">Web Developer</p>
+    <p class="bio">Loves clean design and vibrant color palettes.</p>
+  </div>
+</body>
+</html>

@@ -42,7 +42,7 @@
       text-decoration: underline;
     }
 
-    ul.only li:only-child {
+    ul.rdrn li:only-child {
       border: 2px dashed red;
       padding: 5px;
     }
@@ -53,40 +53,44 @@
     }
 
     input:disabled {
-      background-color: #f5f5f5;
+      background-color: #df83d9;
     }
-
+    /* input:disabled {
+      background-color: #df83d9 !important;
+      color: #89ec9c;
+    } */
     input:enabled {
-      background-color: #ffffff;
+      background-color: #d1cbcb;
     }
 
     input:required {
       border: 2px solid red;
+
     }
 
     input:optional {
-      border: 2px dashed gray;
+      border: 2px dashed rgb(79, 103, 86);
     }
 
     input:valid {
-      background-color: #d4fcdc;
+      background-color: #89ec9c;
     }
 
     input:invalid {
-      background-color: #ffd6d6;
+      background-color: #ef9191;
     }
 
     input:in-range {
-      border: 2px solid green;
+      border: 2px solid rgb(148, 178, 148);
     }
 
     input:out-of-range {
-      border: 2px solid red;
+      border: 2px solid rgb(234, 143, 143);
     }
 
     /* 4. Negation Pseudo-Class */
     p:not(.special) {
-      color: gray;
+      color: rgb(20, 218, 139);
     }
 
     /* 5. Target Pseudo-Class */
@@ -98,7 +102,7 @@
 
     /* 6. UI State Pseudo-Classes */
     input:read-only {
-      background-color: #e0e0e0;
+      background-color: #e0e0e0 ;
     }
 
     input:read-write {
@@ -129,7 +133,7 @@
     <li>Fifth item</li>
   </ul>
 
-  <ul class="only">
+  <ul class="rdrn">
     <li>Only item in this list</li>
   </ul>
 

@@ -67,8 +67,19 @@ public class while_loop {
 
 // Q. Count down from 100 to 1 ?  
 
+       Scanner keyboardScanner=new Scanner (System.in);
+       System.out.print("Provide a number for Back Counting = ");
+       int countOfLoops=keyboardScanner.nextInt();
+       int currentIndex=0;
+       while (countOfLoops>currentIndex) {
+            System.out.println(countOfLoops);  
+            countOfLoops--;
+       }
+       keyboardScanner.close();
+
 
 // Q. Count the number of digits in a given positive integer ? 
+       
 // Q. Reverse a number ? 
 // Q. Calculate the sum of digits of a number ? 
 // Q. Check if a number is a palindrome  ? 
