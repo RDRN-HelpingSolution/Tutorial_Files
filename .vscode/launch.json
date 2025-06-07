@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Electricity_Bill",
+      "request": "launch",
+      "mainClass": "Electricity_Bill",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "MathUtils",
       "request": "launch",
       "mainClass": "Units.Lecture_5.MathUtils",
