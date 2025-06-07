@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "r",
+      "request": "launch",
+      "mainClass": "Challenge.r",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c28",
+      "request": "launch",
+      "mainClass": "Challenge.c28",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "Electricity_Bill",
       "request": "launch",
       "mainClass": "Electricity_Bill",
