@@ -99,9 +99,9 @@
  c30. Write a function that calculates the factorial of a given number.
  c31. Create a program that computes the sum of the digits of an integer.
  c32. Create a program to find the Least Common Multiple (LCM) of two
-      numbers.
+      numbers.(☠️👁️tough)
  c33. Create a program to find the Greatest Common Divisor (GCD) of two
-      integers.
+      integers.(☠️👁️tough)
  c34. Create a program to check whether a given number is prime.
  c35. Create a program to reverse the digits of a number.
  c36. Create a program to print the Fibonacci series up to a certain 

@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "c33",
+      "request": "launch",
+      "mainClass": "Challenge.c33",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c32",
+      "request": "launch",
+      "mainClass": "Challenge.c32",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c31",
+      "request": "launch",
+      "mainClass": "Challenge.c31",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c30",
+      "request": "launch",
+      "mainClass": "Challenge.c30",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c29",
+      "request": "launch",
+      "mainClass": "Challenge.c29",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "r",
       "request": "launch",
       "mainClass": "Challenge.r",
