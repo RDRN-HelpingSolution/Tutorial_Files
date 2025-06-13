@@ -79,7 +79,6 @@ public class while_loop {
 
 
 // Q. Count the number of digits in a given positive integer ? 
-       
 // Q. Reverse a number ? 
 // Q. Calculate the sum of digits of a number ? 
 // Q. Check if a number is a palindrome  ? 
