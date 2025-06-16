@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "multi_D_Array",
+      "request": "launch",
+      "mainClass": "Units.Lecture_5.multi_D_Array",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "rdrn",
+      "request": "launch",
+      "mainClass": "Units.Lecture_5.rdrn",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Array",
+      "request": "launch",
+      "mainClass": "Units.Lecture_5.Array",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c39",
+      "request": "launch",
+      "mainClass": "Challenge.c39",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "c38",
       "request": "launch",
       "mainClass": "Challenge.c38",
