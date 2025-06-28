@@ -6,6 +6,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ThisExamples",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.this_keyword_use.ThisExamples",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "ThisKeywordExamples",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.this_keyword_use.ThisKeywordExamples",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Car",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Class_Object_use.Car",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "Units.Student",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Units.Main",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "BankAccount",
+      "request": "launch",
+      "mainClass": "Units.BankAccount",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "BankAccount",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.BankAccount",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Main",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "cars",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.cars",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Car",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Car",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "drive",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.drive",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "car",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.car",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "r",
       "request": "launch",
       "mainClass": "Admin.Resolver.Java.Sheet_1.Level_1.r",
