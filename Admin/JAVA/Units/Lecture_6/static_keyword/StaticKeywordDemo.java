@@ -6,6 +6,10 @@ import static java.lang.Math.sqrt;
 
 public class StaticKeywordDemo {
 
+
+
+
+
     //  1. Static Variable Example
     static class CollegeInfo {
         static String collegeName = "ABC University";  // Static Variable
@@ -24,12 +28,25 @@ public class StaticKeywordDemo {
         }
     }
 
+
+
+
+
+
+
+
+
     //  2. Static Method Example
     static class MathUtility {
         static int cube(int x) {
             return x * x * x;
         }
     }
+
+
+
+
+
 
     //  3. Static Block Example
     static class AppConfig {
@@ -41,6 +58,14 @@ public class StaticKeywordDemo {
             System.out.println("Environment set to: " + environment);
         }
     }
+
+
+
+
+
+
+
+
 
     //  4. Static Nested Class Example
     static class OuterClass {
@@ -54,6 +79,15 @@ public class StaticKeywordDemo {
         }
     }
 
+
+
+
+
+
+
+
+
+
     //  Main method to demonstrate all static types
     public static void main(String[] args) {
         System.out.println("========= Static Variable Output =========");
@@ -63,16 +97,43 @@ public class StaticKeywordDemo {
         System.out.println("-----------------------------------------");
         s2.showInfo();
 
+
+
+
+
+
+
+
         System.out.println("\n========= Static Method Output =========");
         int result = MathUtility.cube(3);
         System.out.println("Cube of 3 using static method: " + result);
 
+
+
+
+
+
+
+
         // Static Block already executed during AppConfig class loading
+
+
+
+
+
+
+
 
         System.out.println("\n========= Static Nested Class Output =========");
         OuterClass.NestedStaticClass nested = new OuterClass.NestedStaticClass();
         nested.printData();
 
+
+
+
+
+
+        
         System.out.println("\n========= Static Import Output =========");
         System.out.println("Using PI directly: " + PI);
         System.out.println("Square root of 49 directly: " + sqrt(49));
