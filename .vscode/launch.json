@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LibrarySystem",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.LibrarySystem",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Employee",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Employee",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Student",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "ThisExamples",
       "request": "launch",
       "mainClass": "Units.Lecture_6.this_keyword_use.ThisExamples",

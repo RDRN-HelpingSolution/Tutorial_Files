@@ -83,15 +83,31 @@ class Book {
 
 
 // 4. Passing current object as method argument
-class ObjectPasser {
-    void printObject(ObjectPasser obj) {
-        System.out.println("Passed object: " + obj);
+    class Gold {
+        String quality;
+        double weight;
+
+        // Constructor
+        Gold(String quality, double weight) {
+            this.quality = quality;
+            this.weight = weight;
+        }
+
+        // Method creates Printer and passes 'this' (current object)
+        void sendToPrinter() {
+            Printer p = new Printer();   //  Printer created internally
+            p.printDetails(this);        //  Passing current Gold object
+        }
     }
 
-    void start() {
-        printObject(this);  // Use of this to pass current object
+    //  Printer class
+    class Printer {
+        void printDetails(Gold g) {
+            System.out.println("Gold Details:");
+            System.out.println("Quality: " + g.quality);
+            System.out.println("Weight: " + g.weight + " grams");
+        }
     }
-}
 
 
 
@@ -181,7 +197,7 @@ public class ThisExamples {
         System.out.println("3.Constructor chaining using this()");
         System.out.println();
         System.out.println("Creating Book 1 using default constructor:");
-        Book book1 = new Book("RDRN Programming", 4);  // Uses default constructor → calls parameterized
+        Book book1 = new Book();  // Uses default constructor → calls parameterized
         book1.display();
 
         System.out.println("Creating Book 2 using parameterized constructor:");
@@ -200,8 +216,11 @@ public class ThisExamples {
         // 4. Passing current object using this
         System.out.println("4.Passing current object using this");
         System.out.println();
-        ObjectPasser o = new ObjectPasser();
-        o.start();
+       // Creating Gold object
+        Gold g1 = new Gold("24K", 50.75);
+
+        // Calling method to send current object to Printer
+        g1.sendToPrinter();  // ✅ No need to pass Printer manually
         System.out.println();
         System.out.println("...............................");
 
