@@ -103,6 +103,14 @@ class Book {
     //  Printer class
     class Printer {
         void printDetails(Gold g) {
+
+            // a [Gold] object as input, 
+            // and that object is used to access its fields (g.quality, g.weight).
+            // g1.sendToPrinter();          // Gold object
+            // p.printDetails(this); // 'this' = g1
+            // printDetails(Gold g)      // g = g1
+            // uses g.quality, g.weight  // accesses fields
+
             System.out.println("Gold Details:");
             System.out.println("Quality: " + g.quality);
             System.out.println("Weight: " + g.weight + " grams");
@@ -220,7 +228,7 @@ public class ThisExamples {
         Gold g1 = new Gold("24K", 50.75);
 
         // Calling method to send current object to Printer
-        g1.sendToPrinter();  // ✅ No need to pass Printer manually
+        g1.sendToPrinter();  // No need to pass Printer manually
         System.out.println();
         System.out.println("...............................");
 
