@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StaticKeywordDemo",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.static_keyword.StaticKeywordDemo",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "LibrarySystem",
       "request": "launch",
       "mainClass": "Units.Lecture_6.LibrarySystem",
