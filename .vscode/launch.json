@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Constructor_Example",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Constructor.Constructor_Example",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "ThisExamples",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.ThisExamples",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Car",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.this_keyword_use.Car",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Constructor_Example",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Constructor_Example",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "StaticKeywordDemo",
       "request": "launch",
       "mainClass": "Units.Lecture_6.static_keyword.StaticKeywordDemo",
