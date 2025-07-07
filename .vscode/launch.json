@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeBlockDemo",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Code_Blocks.CodeBlockDemo",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "Constructor_Example",
       "request": "launch",
       "mainClass": "Units.Lecture_6.Constructor.Constructor_Example",
