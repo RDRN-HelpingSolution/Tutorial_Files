@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "c51",
+      "request": "launch",
+      "mainClass": "Challenge.c51",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c51$Book",
+      "request": "launch",
+      "mainClass": "Challenge.c51$Book",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "CodeBlockDemo",
       "request": "launch",
       "mainClass": "Units.Lecture_6.Code_Blocks.CodeBlockDemo",
