@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "c52",
+      "request": "launch",
+      "mainClass": "Challenge.c52",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "c51",
       "request": "launch",
       "mainClass": "Challenge.c51",
