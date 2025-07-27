@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Employee",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Scope.Employee",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "SimpleExample",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Primitive_Reference.SimpleExample",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "MemoryExample",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Primitive_Reference.MemoryExample",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "MemoryExample",
+      "request": "launch",
+      "mainClass": "Units.Lecture_6.Stack_Heap.MemoryExample",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "c52",
       "request": "launch",
       "mainClass": "Challenge.c52",
