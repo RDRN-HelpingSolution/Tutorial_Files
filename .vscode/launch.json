@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SwitchExamples",
+      "request": "launch",
+      "mainClass": "Units.Lecture_7.SwitchExamples",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Switch_statement",
+      "request": "launch",
+      "mainClass": "Units.Lecture_7.Switch_statement",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Ternary_Operator",
+      "request": "launch",
+      "mainClass": "Units.Lecture_7.Ternary_Operator",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "Employee",
       "request": "launch",
       "mainClass": "Units.Lecture_6.Scope.Employee",
