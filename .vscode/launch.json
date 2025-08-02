@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "c58",
+      "request": "launch",
+      "mainClass": "Challenge.c58",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c57",
+      "request": "launch",
+      "mainClass": "Challenge.c57",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c56",
+      "request": "launch",
+      "mainClass": "Challenge.c56",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c55",
+      "request": "launch",
+      "mainClass": "Challenge.c55",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c54",
+      "request": "launch",
+      "mainClass": "Challenge.c54",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c53",
+      "request": "launch",
+      "mainClass": "Challenge.c53",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "SwitchExamples",
       "request": "launch",
       "mainClass": "Units.Lecture_7.SwitchExamples",
