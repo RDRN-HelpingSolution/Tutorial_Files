@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ForLoopDemo",
+      "request": "launch",
+      "mainClass": "Units.Lecture_7.ForLoopDemo",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "DoWhileExample",
+      "request": "launch",
+      "mainClass": "Units.Lecture_7.DoWhileExample",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "c58",
       "request": "launch",
       "mainClass": "Challenge.c58",
