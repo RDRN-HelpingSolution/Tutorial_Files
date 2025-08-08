@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ForEachLoopDemo",
+      "request": "launch",
+      "mainClass": "Units.Lecture_7.ForEachLoopDemo",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "Recursion",
       "request": "launch",
       "mainClass": "Units.Lecture_7.Recursion",

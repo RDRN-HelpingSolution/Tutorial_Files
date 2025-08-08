@@ -31,6 +31,7 @@ public class DoWhileExample {
             System.out.println("Outer Loop iteration: " + outer); // 📌 Outer loop execution
 
             int inner = 1;
+            
 
             // Inner do-while starts
             do {
@@ -38,7 +39,7 @@ public class DoWhileExample {
                 inner++; // 🔁 Increment inner counter
             } while (inner <= 3); // 🔁 Inner loop runs 3 times for each outer loop iteration
 
-            outer++; // 🔁 Increment outer counter
+              outer++; // 🔁 Increment outer counter
         } while (outer <= 2); // 🔁 Outer loop runs 2 times
 
         System.out.println(); // End of program
