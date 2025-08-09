@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "c59",
+      "request": "launch",
+      "mainClass": "Challenge.c59",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "ForEachLoopDemo",
       "request": "launch",
       "mainClass": "Units.Lecture_7.ForEachLoopDemo",

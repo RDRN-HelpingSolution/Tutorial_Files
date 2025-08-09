@@ -6,10 +6,7 @@ public class c24 {
         System.out.println();
         int a=5;
         int result=~a;
-         
         System.out.println("Result of Bitwise compliment of "+a+" is "+result);
         System.out.println();
-
-
     }
 }
