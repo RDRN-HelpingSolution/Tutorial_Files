@@ -19,7 +19,7 @@ public class Recursion {
         // This breaks the problem into smaller instances
         // Each call goes deeper until the base case is reached
         return n * factorial(n - 1);
-    }
+    } 
 
     // 🟢 Main method to run the program
     public static void main(String[] args) {
