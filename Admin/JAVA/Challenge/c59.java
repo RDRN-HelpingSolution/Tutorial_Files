@@ -6,8 +6,12 @@ public class c59 {
     public static void main(String[] args) {
         System.out.println("\nWelcome to Password Checker\n");
         Scanner s=new Scanner(System.in);
-        String x=s.nextLine();
-        String []y={"pafkdn"};
+        String[]r;
+        
+        
+        
+
+        
 
 
 
@@ -15,6 +19,9 @@ public class c59 {
 
 
 
+
+
+        // String x=s.nextLine();
         //  int x;
         // do {
         //     System.out.print("Provide a Password : ");
