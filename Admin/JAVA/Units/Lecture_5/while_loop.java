@@ -14,7 +14,7 @@ public class while_loop {
             System.out.println(inputNumber);
             inputNumber++;
         }
-       numberScanner.close();
+       // numberScanner.close();
 
 // Q. Print all even numbers between 1 and 50 ?
 
@@ -32,8 +32,8 @@ public class while_loop {
         System.out.println(inputValue);
         inputValue=inputValue+2;
        }
-       inputScanner.close();
-       scannerForInput.close();
+       // inputScanner.close();
+       // scannerForInput.close();
 
 // Q. Print the multiplication table of a given number ?
        
@@ -49,7 +49,7 @@ public class while_loop {
         loopCounter++;
        }
 
-       dataInputScanner.close();
+       // dataInputScanner.close();
 
 // Q. Calculate the sum of the first n natural numbers ? 
 
@@ -63,7 +63,7 @@ public class while_loop {
              counter++; 
        }
        System.out.println(total);
-       userInputScanner.close();
+       // userInputScanner.close();
 
 // Q. Count down from 100 to 1 ?  
 
@@ -75,7 +75,7 @@ public class while_loop {
             System.out.println(countOfLoops);  
             countOfLoops--;
        }
-       keyboardScanner.close();
+       // keyboardScanner.close();
 
 
 // Q. Count the number of digits in a given positive integer ? 
