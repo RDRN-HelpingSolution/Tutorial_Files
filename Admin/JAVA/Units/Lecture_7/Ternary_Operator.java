@@ -21,9 +21,9 @@ public class Ternary_Operator {
 
         //todo Nested ternary: Grade based on score
 
-         String grade = (score >= 90) ? "A" :(score >= 80) ? "B" :(score >= 70) ? "C" :(score >= 60) ? "D" : "F";
+        String grade = (score >= 90) ? "A" :(score >= 80) ? "B" :(score >= 70) ? "C" :(score >= 60) ? "D" : "F";
         
-         // !  String grade = (score >= 90) ? "A" 
+        // !  String grade = (score >= 90) ? "A" 
         // !                  :(score >= 80) ? "B" 
         // !                  :(score >= 70) ? "C" 
         // !                 :(score >= 60) ? "D" : "F";
