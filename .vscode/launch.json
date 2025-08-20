@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "c62",
+      "request": "launch",
+      "mainClass": "Challenge.c62",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c61",
+      "request": "launch",
+      "mainClass": "Challenge.c61",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c60",
+      "request": "launch",
+      "mainClass": "Challenge.c60",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "c59",
       "request": "launch",
       "mainClass": "Challenge.c59",
