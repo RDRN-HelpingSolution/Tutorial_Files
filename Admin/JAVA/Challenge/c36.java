@@ -3,43 +3,34 @@ package Challenge;
 import java.util.Scanner;
 
 public class c36 {
-    public static long userInput(){
-        System.out.print("Provide a Number : ");
+    public static int userInput(){
+        System.out.print("Provide a Position : ");
         Scanner s=new Scanner(System.in);
-        long num=s.nextLong();
+        int num=s.nextInt();
         s.close();
         return num;
     }
-    public static void fibonacci(long num){
-        long x=0L;
-        long y=1L;
-        long z=0L;
-        long b=0L;
-        if (num<=230) {
-            if (num<=0) {
-            System.out.println("0");
-        } else {
-        System.out.print("Fibonacci Series up to "+num+" is : 01");
-        while ((x+y)<=num) {
-           z=x+y;
-        if (z<10) {
-         b=b*10;
-      } else if (z<99) {
-         b=b*100;
-       }else if (z<999) {
-         b=b*1000;
-       }else{
-         b=b*10000;
-       }
-            b=b+z;
-           x=y;
-           y=z;
-        }
-        System.out.print(b);
-    }
-        } else {
-            System.out.println("Provided no is more than 230");
-            System.out.println(" Sorry ! ");
+    public static void fibonacci(int num){
+        System.out.println("\nFibonacci up to "+num+" Position is : \n");
+    
+        int y=0;
+        int a=0;
+        int b=1;
+        int c;
+        while (num>=y) {
+            if (y==0) {
+            System.out.print(y+" " ); 
+            y++;
+            }else if (y==1) {
+                System.out.print(y);
+                y++;
+            }else {
+                c=a+b;
+                System.out.print(" "+c);
+                a=b;
+                b=c;
+                y++;
+            }
         }
     }
     public static void main(String[] args) {
@@ -47,6 +38,6 @@ public class c36 {
         System.out.println("Welcome Rdrn");
         System.out.println();
         fibonacci(userInput());
-        System.out.println();
-         }
+        System.out.println("\n");
+        }
 }

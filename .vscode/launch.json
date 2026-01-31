@@ -6,6 +6,111 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Q5",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Other_file.Q5",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Q4",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Other_file.Q4",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "q3",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Other_file.q3",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Print_N_to_1",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Recursion.Q2_Print_N_to_1",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Q2",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Other_file.Q2",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Q1",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Other_file.Q1",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "q1",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Other_file.q1",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Print_1_to_N",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Recursion.Q3_Print_1_to_N",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Q5_Power_Calculator",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Recursion.Q5_Power_Calculator",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Q4_Sum_1_to_N",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Recursion.Q4_Sum_1_to_N",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Print_1_to_N",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Recursion.Print_1_to_N",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Print_N_to_1",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Recursion.Print_N_to_1",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.PW.Recursion.Factorial",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "Recursion",
+      "request": "launch",
+      "mainClass": "Coverage.JAVA.Recursion",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
+      "name": "c68",
+      "request": "launch",
+      "mainClass": "Challenge.c68",
+      "projectName": "CODES_57494267"
+    },
+    {
+      "type": "java",
       "name": "c67",
       "request": "launch",
       "mainClass": "Challenge.c67",

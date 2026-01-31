@@ -1,7 +1,7 @@
 package Units.Lecture_7;
 
 // Class declaration
-public class Recursion {
+public class Recursion_Example {
 
     // 🔁 Recursive method to calculate the factorial of a number
     // This method takes an integer 'n' and returns the factorial of n
