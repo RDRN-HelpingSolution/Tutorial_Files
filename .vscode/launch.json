@@ -6,6 +6,7 @@
   "configurations": [
     {
       "type": "java",
+<<<<<<< HEAD
       "name": "Q5",
       "request": "launch",
       "mainClass": "Coverage.JAVA.PW.Other_file.Q5",
@@ -108,6 +109,12 @@
       "request": "launch",
       "mainClass": "Challenge.c68",
       "projectName": "CODES_57494267"
+=======
+      "name": "c3a",
+      "request": "launch",
+      "mainClass": "Challenge.c3a",
+      "projectName": "Tutorial_Files_2d7c678c"
+>>>>>>> 1db402e936e96929275f922efbcdfa026d623b09
     },
     {
       "type": "java",
