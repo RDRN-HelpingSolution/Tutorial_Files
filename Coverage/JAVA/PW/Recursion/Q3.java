@@ -1,4 +1,4 @@
-package Java.PW_Recursion;
+package Coverage.JAVA.PW.Recursion;
 
 import java.util.Scanner;
 
