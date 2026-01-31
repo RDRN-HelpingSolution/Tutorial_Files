@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "c3a",
+      "request": "launch",
+      "mainClass": "Challenge.c3a",
+      "projectName": "Tutorial_Files_2d7c678c"
+    },
+    {
+      "type": "java",
       "name": "c67",
       "request": "launch",
       "mainClass": "Challenge.c67",
