@@ -1,8 +1,10 @@
 package Coverage.JAVA.PW.Recursion;
+
 import java.util.Scanner;
 
 //Factorial of a Number ?
-public class Q1 {
+
+public class t1 {
     public static int Fact(int x){
         if (x==1) {
             return x;
@@ -17,5 +19,4 @@ public class Q1 {
         int result=Fact(x);
         System.out.println("\nResult is : "+result+"\n");
     }
-
 }
