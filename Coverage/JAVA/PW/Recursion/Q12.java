@@ -2,7 +2,7 @@ package Coverage.JAVA.PW.Recursion;
 
 import java.util.Scanner;
 
-// Print Zig-Zag ?
+// Print Zig-Zag (Pre - Post Concept) ?
 //input           output
 //1               111
 //2               211121112
