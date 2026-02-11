@@ -15,9 +15,7 @@ public class Electricity_Bill {
             //String startInput = scanner.nextLine();
 
             
-                                                      CharSequence startInput="06-06-25";
-
-                                                      
+            CharSequence startInput="06-06-25";
             LocalDate startDate = LocalDate.parse(startInput, formatter);
             System.out.println();
 
