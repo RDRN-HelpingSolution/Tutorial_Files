@@ -9,10 +9,7 @@ public class c68 {
         if (n==0 || n==1) {
             return n;
         }
-        int x=Fabonacci(n-1);
-        int y=Fabonacci(n-2);
-        int c=x+y;
-        return c;
+        return Fabonacci(n-1)+Fabonacci(n-2);
     } 
     public static void main(String[] args) {
         System.out.println("\nWelcome to Fabonacci Series");
