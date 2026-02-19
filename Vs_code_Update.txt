@@ -1,0 +1,4 @@
+
+Step 1:  sudo apt update
+
+Step 2:  sudo apt install --only-upgrade code
