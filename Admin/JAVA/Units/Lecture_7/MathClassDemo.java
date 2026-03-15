@@ -39,6 +39,8 @@ public class MathClassDemo {
 
         // Random Number
         int randomNum = (int)(Math.random() * 100) + 1;
+        // Range produced:
+        // 1 ≤ r ≤ 100
         System.out.println("\nRandom number between 1 and 100: " + randomNum);
         System.out.println();
     }
