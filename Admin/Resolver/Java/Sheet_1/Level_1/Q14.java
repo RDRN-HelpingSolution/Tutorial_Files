@@ -11,7 +11,7 @@ public class Q14 {
         System.out.print("Provide a number : ");
         int x=s.nextInt();
         System.out.println();
-
+        
         int i=1;
         int m;
         while (i<=10) {
