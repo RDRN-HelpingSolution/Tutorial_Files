@@ -6,3 +6,5 @@ Step 2:  sudo apt install --only-upgrade code
 check from lenovo to hp 
 check 2
 check 3
+
+check from hp to lenovo
