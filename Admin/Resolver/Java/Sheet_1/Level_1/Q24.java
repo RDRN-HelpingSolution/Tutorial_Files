@@ -9,7 +9,7 @@ public class Q24 {
           System.out.println("\nWelcome Roushan Agrawal\n");
           Scanner s=new Scanner(System.in);
           System.out.print("\nProvide a Number : ");
-          float x=s.nextFloat();
+          int x=s.nextInt();
           
           if (x%400==0||(x%100!=0&&x%4==0)) {
                System.out.println("\nProvided Year \""+x+"\" is Leap Year.\n");
