@@ -37,13 +37,13 @@ public class Q28 {
         int sum=(a+b+c+d+e);
         float Avg=(sum*100)/500;
 
-        if (Avg>80) {
+        if (Avg>=80) {
             System.out.println("\nMarks Got out of 500 is "+sum+"\n");
             System.out.println("\nGrade : \"A\"\n");
-        } else if (Avg>60) {
+        } else if (Avg>=60) {
             System.out.println("\nMarks Got out of 500 is "+sum+"\n");
             System.out.println("\nGrade : \"B\"\n");
-        } else if (Avg>33) {
+        } else if (Avg>=33) {
             System.out.println("\nMarks Got out of 500 is "+sum+"\n");
             System.out.println("\nGrade : \"C\"\n");
         } else if (Avg<=32) {
