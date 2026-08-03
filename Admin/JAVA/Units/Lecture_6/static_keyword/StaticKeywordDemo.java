@@ -111,15 +111,8 @@ public class StaticKeywordDemo {
 
 
 
-
-
-
-
         // Static Block already executed during AppConfig class loading
-
-
-
-
+        System.out.println(AppConfig.environment);
 
 
 
